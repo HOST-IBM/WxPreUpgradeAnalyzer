@@ -4,7 +4,7 @@
   <value name="enabled">yes</value>
   <value name="classloader">package</value>
   <value name="system_package">no</value>
-  <value name="version">11.1</value>
+  <value name="version">11.1.1</value>
   <record name="startup_services" javaclass="com.wm.util.Values">
     <null name="WxPreUpgradeAnalyzer.admin:init"/>
   </record>
@@ -22,4 +22,25 @@
   <value name="time">2021-12-08 18:19:58 PST</value>
   <value name="jvm_version">11.0.12</value>
   <value name="patch_nums"></value>
+  <value name="reloadWithDependentPackage">yes</value>
+  <null name="created_date"/>
+  <array name="extendedProperties" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="key">displayName</value>
+      <value name="value"></value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="key">trusted</value>
+      <value name="value">no</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="key">status</value>
+      <value name="value">Development</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="key">tags</value>
+      <value name="value"></value>
+    </record>
+  </array>
+  <null name="target_server_version"/>
 </Values>

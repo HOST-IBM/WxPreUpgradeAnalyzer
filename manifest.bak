@@ -4,7 +4,7 @@
   <value name="enabled">yes</value>
   <value name="classloader">package</value>
   <value name="system_package">no</value>
-  <value name="version">1.1</value>
+  <value name="version">11.1</value>
   <record name="startup_services" javaclass="com.wm.util.Values">
     <null name="WxPreUpgradeAnalyzer.admin:init"/>
   </record>
@@ -15,5 +15,11 @@
   <null name="requires"/>
   <value name="listACL">Default</value>
   <value name="webappLoad">yes</value>
-  <value name="publisher">Software AG</value>
+  <value name="publisher">SAG-DT6PXT2</value>
+  <value name="name">WxPreUpgradeAnalyzer</value>
+  <value name="build"></value>
+  <value name="description"></value>
+  <value name="time">2021-12-08 18:19:58 PST</value>
+  <value name="jvm_version">11.0.12</value>
+  <value name="patch_nums"></value>
 </Values>
